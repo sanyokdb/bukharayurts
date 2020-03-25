@@ -11994,7 +11994,8 @@ a {
 .title {
   font-weight: 700;
   position: relative;
-  padding-bottom: 6px; }
+  padding-bottom: 6px;
+  margin-bottom: .9rem; }
   .title::after {
     content: '';
     position: absolute;
