@@ -12030,6 +12030,11 @@ a {
       font-size: 0.9375rem;
       font-weight: 400;
       color: #6c757d; }
+    .tour-thumb .price__old {
+      font-size: 0.9375rem;
+      font-weight: 500;
+      color: #6c757d;
+      text-decoration: line-through; }
 
 @media (min-width: 576px) {
   .font-sm-18 {
