@@ -11894,6 +11894,9 @@ a {
 .slick-slider a {
   outline: none; }
 
+.slick-slide {
+  outline: none; }
+
 .slick-prev, .slick-next {
   position: absolute;
   top: 50%;
