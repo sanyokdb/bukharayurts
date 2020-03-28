@@ -13247,7 +13247,7 @@ $(function() {
     speed: 1000
   });
 
-  $('.tour-slider').slick({
+  $('.slick-carousel').slick({
     infinite: true,
     slidesToShow: 3,
     autoplay: true,
