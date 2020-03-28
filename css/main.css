@@ -12004,8 +12004,14 @@ a {
   margin: 0 auto 30px;
   border-radius: 3px;
   box-shadow: 0 0 23px rgba(10, 10, 10, 0.08); }
-  .tour-thumb__image img {
-    max-width: 100%; }
+  .tour-thumb:hover .tour-thumb__image img {
+    transform: scale(1.15); }
+  .tour-thumb__image {
+    position: relative;
+    overflow: hidden; }
+    .tour-thumb__image img {
+      transition: all 0.3s;
+      max-width: 100%; }
   .tour-thumb__body {
     display: flex;
     flex-direction: column;
